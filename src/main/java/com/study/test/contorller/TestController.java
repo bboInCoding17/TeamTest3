@@ -11,4 +11,10 @@ public class TestController {
 		
 		return "index";
 	}
+	
+	@GetMapping("/attendanceManage")
+	public String attendanceManage() {
+		
+		return "attendanceManage";
+	}
 }
